@@ -41,9 +41,9 @@ var Name = location.search.substring(1);
             let output = "";
             output = output + 
             '<h2 id="characterMainTitle" style="color:white; ">' + characterAttributes.name + "</h2>" +
-            '<div class="card flex-md-row mb-4 box-shadow h-md-250" id="characterCard" style="max-width:1200px; max-height:600px;">' +
+            '<div class="card flex-md-row mb-4 box-shadow h-md-250" id="characterCard" style="max-width:1200px; max-height:540px;">' +
             '<div id="characterImage">' +
-            '<img class="card-img-right flex-auto d-md-block img-fluid" style=" max-height:600px;"' +
+            '<img class="card-img-right flex-auto d-md-block img-fluid" style=" max-height:540px;"' +
             ' alt="Picture of ' + characterAttributes.name +
             '" src="' + characterAttributes.thumbnail["path"] + "." + characterAttributes.thumbnail["extension"] +'">' +"</div>" +
             '<div class="card-body d-flex flex-column align-items-start">' +
